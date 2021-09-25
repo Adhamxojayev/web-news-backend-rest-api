@@ -1,0 +1,60 @@
+POST
+/register 
+        -> first_name, last_name, email, password, specialist
+
+POST
+/login
+        -> password, email
+
+GET
+/users
+        -> userlarni malumotlari
+
+
+POST
+/news
+    -> news_title, news_body, category_id, author_id, lang_id
+
+Delete
+/news   
+    -> news_id
+
+PUT
+/news
+    -> news_id, news_title, news_body, author_id, views
+
+GET
+/news
+    -> news lar chiqadi
+
+
+POST
+/categories
+        -> category_name, lang_id
+
+GET
+/categories
+        -> category malumotlar va langId qilsangiz tillar boyicha olib beradi
+
+Delete
+/categories
+        -> category_id kiritilsa ochiradi
+
+PUT
+/categories
+        -> category_id va category_name kiritlsa ozgartiradi
+
+
+yana vaqt boganda chiroyli qilib yozib chqardim ;)
+
+
+
+
+
+
+
+
+
+
+
+
